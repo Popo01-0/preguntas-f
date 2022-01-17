@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+	background-color: #24262b;
+
+      }
+      
+h1{
+    margin: auto;
+    margin-top: 200px;
+    color: #a6a6ad;
+    
+}
+.button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    background: rgba(234, 42, 252, 0.603);
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+#si{
+    left: 20%;
+    transform: translateY(-50%);
+    transform: translateX(-20%);
+}
+#no{
+    left: 80%;
+    transform: translateY(-50%);
+    transform: translateX(-80%);
+}
