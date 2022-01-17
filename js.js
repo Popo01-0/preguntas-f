@@ -1,6 +1,5 @@
 let si=document.getElementById('si');
 si.addEventListener("click", function(e){
-alert(".");
 }   );
 let no=document.getElementById('no');
 no.addEventListener("mousemove", function(e){
